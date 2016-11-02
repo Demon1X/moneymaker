@@ -1,0 +1,246 @@
+body {
+	background: #f1f1f1;
+	color: #393939;
+}
+
+.header {
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto;
+	background: #ffffff;
+	border: 1px solid #d9d9d9;
+}
+
+.main {
+	width: 1000px;
+	min-height: 650px;
+	margin: 0px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: #ffffff;
+	text-align: center;
+	border: 1px solid #d9d9d9;
+}
+
+.footer {
+	
+}
+
+
+h1, h2 {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+h3 {
+	padding: 30px 0px 10px 0px;
+}
+
+
+table {
+	margin: 0px auto;
+	text-align: left;
+}
+
+td {
+	padding: 0px 10px;
+}
+
+
+.allPages {
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}
+
+.allUsers {
+	width: 800px;
+	margin: 0px auto;
+	~text-align: center;
+	border-spacing: 0px;
+}
+
+.allNews {
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}
+
+.allPlans {
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}	
+
+.showDepo {
+	width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}
+
+.allOperations {
+	width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}
+
+.allPaySys {
+	width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}
+
+.allBots {
+	width: 700px;
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}
+
+.user_balance {
+	margin: 0px auto;
+	text-align: center;
+	border-spacing: 0px;
+}
+
+.user_balance td {
+	border-bottom: 1px solid #d9d9d9;
+	padding: 5px 10px;
+	~background: #d9d9d9;
+}
+
+.allUsers tr, .allPlans tr, .allPages tr, .allNews tr, .mainSettings tr, .allPaySys tr, .allBots tr {
+	margin: 0px;
+	border: 1px solid #000;
+}	
+
+.allPlans th, .allPages th, .allNews th {
+	padding: 5px;	
+	text-align: center;
+}
+
+.allUsers td, .allPlans td, .allPages td , .allNews td, .showSettings td, .showDepo td, .allOperations td, .allPaySys td, .allBots td {
+	margin: 0px;
+	padding: 10px;
+	border-bottom: 1px solid #000;
+}
+
+.td_center	{
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.makePlan {
+	~width: 700px;
+	margin: 0px auto;
+	text-align: right;
+}
+
+
+input[type=text], input[type=password], select {
+	height: 25px;
+	width: 120px;
+	margin: 5px 0px;
+	padding: 2px;
+	border: 1px solid #d9d9d9;
+}
+
+select {
+	height: 30px;
+}
+
+textarea {
+	~height: 100px;
+	~width: 400px;
+	border: 1px solid #d9d9d9;
+}
+
+hr {
+	height: 1px;
+	width: 950px;
+	margin: 15px auto;
+	background: #d9d9d9;
+}
+
+.linkbt, input[type=submit] {
+	height: 30px;
+	margin: 5px 0px;
+	padding: 5px 15px;
+	border: 1px solid #118fc3;
+	text-decoration: none;
+	background: #118fc3;
+	color: #fff;
+	font-weight: bold;
+}
+
+.linkbt:hover, input[type=submit]:hover {
+	background: #1a98cc;
+}	
+
+.post input[type=text] {
+	width: 235px;
+}
+
+.makePage input[type=text] {
+	width: 300px;
+}
+
+.makePage textarea {
+	width: 800px;
+	height: 350px;
+}
+
+
+.good_msg {
+	width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+	background: #66CD00;
+	color: #fff;
+	border: 1px solid #458B00;	
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bad_msg {
+	width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+	background: #B22222;
+	color: #fff;
+	border: 1px solid #A52A2A;	
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.notice_msg {
+	width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+	background: #eeeeee;
+	color: #4F4F4F;
+	border: 1px solid #CDC9C9;	
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.clock {
+	font-weight: bold;
+}
+.global_stat {
+	border-spacing: 0px;
+}
+
+.global_stat td {
+	padding: 7px 5px;
+	text-align: left;
+	border-bottom: 1px solid #000;
+}

@@ -1,0 +1,140 @@
+.header {
+	width: 1000px;
+	height: 100px;
+	margin: 0px auto;
+	background: #eeeeee;
+}
+
+.main {
+	width: 1000px;
+	min-height: 600px;
+	margin: 0px auto;
+	background: #f3f3f3;
+	
+}
+
+.footer {
+	width: 1000px;
+	height: 70px;
+	margin: 0px auto;
+	background: #bbbbbb;
+}
+
+.topMenu {
+	text-align: center;	
+}
+
+.bottomMenu {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+h2 {
+	text-align: center;
+	padding: 10px 0px;
+}
+
+
+.good_msg {
+	width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+	background: #66CD00;
+	color: #fff;
+	border: 1px solid #458B00;	
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bad_msg {
+	width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+	background: #B22222;
+	color: #fff;
+	border: 1px solid #A52A2A;	
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.notice_msg {
+	width: 300px;
+	margin: 0px auto;
+	padding: 10px;
+	background: #eeeeee;
+	color: #4F4F4F;
+	border: 1px solid #CDC9C9;	
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.linkCenter {
+	width: 200px; 
+	margin: 0px auto;
+	padding: 30px 0px;
+}
+
+.supportTable {
+	width: 420px;
+	margin: 0px auto;
+}
+
+.supportTable td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+.normalTable {
+	width: 380px;
+	margin: 0px auto;
+}
+
+.normalTable td {
+	padding: 5px;
+}
+
+input[type=text], input[type=password], select {
+	height: 25px;
+	width: 150px;
+	margin: 5px 0px;
+	padding: 2px;
+	border: 1px solid #d9d9d9;
+}
+
+.td_center	{
+	text-align: center;
+}
+
+.linkbt, input[type=submit] {
+	height: 30px;
+	margin: 5px 0px;
+	padding: 5px 15px;
+	border: 1px solid #118fc3;
+	text-decoration: none;
+	background: #118fc3;
+	color: #fff;
+	font-weight: bold;
+}
+
+.linkbt:hover, input[type=submit]:hover {
+	background: #1a98cc;
+}	
+
+ input[type=text].support_input {
+	 width: 300px;
+	 margin: 0px;
+	 padding: 0px;
+ }
+ 
+ textarea.support_input {
+	 width: 300px;
+	 height: 100px;
+ }
+ 

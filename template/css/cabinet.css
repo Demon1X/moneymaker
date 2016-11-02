@@ -1,0 +1,70 @@
+.cabinet h1 {
+	text-align: center;
+	padding: 20px 0px 30px 0px;
+}
+
+input[type=text].gmt {
+	height: 20px;
+	width: 30px;
+	margin: 5px 0px;
+	padding: 2px;
+}
+
+select {
+	width: 250px;
+}
+
+.user_balance {
+	margin: 0px auto;
+	font-size: 13px;
+}
+
+.user_balance td, .user_deposits td, .refsys_table td, .history td, .ref td, .stata td {
+	padding: 7px;
+	background: #fff;
+	text-align: center;
+}	
+
+.user_deposits {
+	margin: 0px auto;
+}
+
+.new_depo {
+	~width: 500px;
+	margin: 0px auto;
+}
+
+.refsys {
+	width: 500px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.your_inviter {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.refsys_table {
+	width: 400px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.history {
+	width: 900px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.ref {
+	width: 500px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.stata {
+	width: 250px;
+	margin: 0px auto;
+	text-align: center;
+}
